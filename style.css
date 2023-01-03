@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #F3F5FC;
+}
+header{
+    width: 100%;
+    height: 100px;
+    /* background-color: black; */
+}
+#logo{
+    float: left;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+main{
+    width: 100%;
+    height: 650px;
+    /* background-color: rgb(68, 21, 21); */
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    width: 40%;
+    height: 100%;
+    /* background-color: green; */
+}
+.seccion1{
+    width: 70%;
+    margin-left: 100px;
+}
+.area-texto{
+    width: 80%;
+    height: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    resize: none;
+    font-size: 25px;
+    border: none;
+}
+#area-texto{
+    border-radius: 14px;
+    padding: 20px;
+    outline: none;
+    background-color: #F3F5FC;
+}
+.boton-encriptar, .boton-desencriptar{
+    width: 20%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 17px;
+    border-radius: 14px;
+    border: none;    
+}
+.botones{
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+}
+.seccion2{
+    width: 20%;
+    background: white;
+    border-radius: 24px;
+    margin-right: 200px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.imagen{   
+    padding-top: 5em;
+    box-sizing: border-box;
+    overflow: hidden;      
+}
+#imagen{
+    margin-left: 20px;
+    width: 90%;
+    height: 90%;
+    object-fit: cover;
+}
+.subtitulo{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.texto{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+}
+.resultado{
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    padding: 25px;
+    padding-top: 5em;
+    box-sizing: border-box;
+}
+#h3{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color: #0A3871;
+}
+#resultado{
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    border: none;
+    resize: none;
+    padding-top: 2em;
+}
+.copiar{
+    width: 100%;
+    height: 20%;
+}
+.boton-copiar{
+    width: 35%;
+    height: 40px;
+    border: none;
+    font-size: 17px;
+    border-radius: 14px;
+    display: block;
+    margin: auto;
+}
+footer{
+    width: 100%;
+    height: 64px;
+    /* background-color: blue; */
+    text-align: center;
+}
+#footer{
+    padding-top: 2em;
+    font-size: 15px;
+    color: #0A3871;
+}
+.ocultar{
+    display: none;
+}
