@@ -32,7 +32,7 @@ section{
     margin-left: 100px;
 }
 .area-texto{
-    width: 80%;
+    width: 60%;
     height: 70%;
     display: block;
     margin: auto;
@@ -43,6 +43,7 @@ section{
 }
 #area-texto{
     border-radius: 14px;
+    margin-left: 10em;
     padding: 20px;
     outline: none;
     background-color: #F3F5FC;
@@ -60,6 +61,30 @@ section{
     margin-top: 30px;
     text-align: center;
     padding: 10px;
+}
+#aviso{
+    margin-right: 15em;
+    font-size: 15px;
+    color: #0A3871;
+}
+#boton1{
+    background-color: #0A3871;
+    color: white;
+    margin-right: 5em;
+}
+#boton1:hover{
+    background-color: #F3F5FC;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+#boton2{
+    background-color: #F3F5FC;
+    color: #0A3871;
+    border: 1px solid #0A3871;
+}
+#boton2:hover{
+    background-color: #0A3871;
+    color: white;
 }
 .seccion2{
     width: 20%;
