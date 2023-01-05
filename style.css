@@ -55,7 +55,8 @@ section{
     margin-top: 20px;
     font-size: 17px;
     border-radius: 14px;
-    border: none;    
+    border: none;   
+    cursor: pointer; 
 }
 .botones{
     margin-top: 30px;
@@ -93,17 +94,16 @@ section{
     margin-right: 200px;
     box-sizing: border-box;
     overflow: hidden;
+    
 }
 .imagen{   
     padding-top: 5em;
-    box-sizing: border-box;
-    overflow: hidden;      
+    box-sizing: border-box;     
 }
 #imagen{
     margin-left: 20px;
     width: 90%;
     height: 90%;
-    object-fit: cover;
 }
 .subtitulo{
     width: 100%;
@@ -118,14 +118,12 @@ section{
 .resultado{
     text-align: center;
     width: 100%;
-    height: 70%;
-    padding: 25px;
+    height: 20%;
     padding-top: 5em;
     box-sizing: border-box;
 }
 #h3{
     font-size: 20px;
-    margin-top: 20px;
     text-align: center;
     color: #0A3871;
 }
@@ -135,7 +133,6 @@ section{
     font-size: 20px;
     border: none;
     resize: none;
-    padding-top: 2em;
 }
 .copiar{
     width: 100%;
@@ -149,6 +146,7 @@ section{
     border-radius: 14px;
     display: block;
     margin: auto;
+    cursor: pointer;
 }
 footer{
     width: 100%;
