@@ -99,6 +99,8 @@ function encriptar(){
     document.getElementById("texto2").style.display = "none";
     document.getElementById("resultado").innerHTML = textoCifrado;
 
+    document.getElementById("resultado").style.display = "show";
+    document.getElementById("resultado").style.display = "inherit";
     document.getElementById("copiar").style.display = "show";
     document.getElementById("copiar").style.display = "inherit";
 }
@@ -115,6 +117,8 @@ function desencriptar(){
     document.getElementById("texto2").style.display = "none";
     document.getElementById("resultado").innerHTML = textoCifrado;
 
+    document.getElementById("resultado").style.display = "show";
+    document.getElementById("resultado").style.display = "inherit";
     document.getElementById("copiar").style.display = "show";
     document.getElementById("copiar").style.display = "inherit";
 }

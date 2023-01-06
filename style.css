@@ -116,37 +116,42 @@ section{
     text-align: center;
 }
 .resultado{
-    text-align: center;
     width: 100%;
     height: 20%;
-    padding-top: 5em;
-    box-sizing: border-box;
-}
-#h3{
-    font-size: 20px;
-    text-align: center;
-    color: #0A3871;
+    box-sizing: border-box;  
 }
 #resultado{
+    text-align: center;
+    margin-top: -4em;
     width: 100%;
-    height: 100%;
+    height: 200%;
     font-size: 20px;
     border: none;
     resize: none;
+    outline: none;
 }
 .copiar{
+    margin-top: 12em;
     width: 100%;
     height: 20%;
 }
 .boton-copiar{
-    width: 35%;
-    height: 40px;
-    border: none;
+    width: 65%;
+    height: 50px;
     font-size: 17px;
     border-radius: 14px;
     display: block;
     margin: auto;
     cursor: pointer;
+}
+#copiar{
+    background-color: #F3F5FC;
+    color: #0A3871;
+    border: 1px solid #0A3871;  
+}
+#copiar:hover{
+    background-color: #0A3871;
+    color: white;
 }
 footer{
     width: 100%;
@@ -158,7 +163,4 @@ footer{
     padding-top: 2em;
     font-size: 15px;
     color: #0A3871;
-}
-.ocultar{
-    display: none;
 }
