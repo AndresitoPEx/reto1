@@ -164,3 +164,127 @@ footer{
     font-size: 15px;
     color: #0A3871;
 }
+@media (max-width: 768px) {
+    /* reglas para pantallas de tamaño tablet o menores */
+  
+    /* Ajusta el tamaño del logo */
+    #logo {
+      width: 4%;
+      height: auto;
+    }
+  
+    /* Ajusta el tamaño del textarea */
+    #area-texto {
+      width: 80%;
+    }
+  
+    /* Ajusta el tamaño de los botones */
+    .boton-encriptar, .boton-desencriptar {
+      width: 30%;
+    }
+  
+    /* Ajusta el tamaño de la sección 1 */
+    .seccion1 {
+      width: 90%;
+    }
+  
+    /* Ajusta el tamaño de la sección 2 */
+    .seccion2 {
+      width: 60%;
+    }
+  
+    /* Ajusta el tamaño de la imagen */
+    #imagen {
+      width: 50%;
+      height: auto;
+    }
+  
+    /* Ajusta el tamaño del título */
+    #texto {
+      font-size: 20px;
+    }
+  
+    /* Ajusta el tamaño de los párrafos */
+    p {
+      font-size: 15px;
+    }
+  
+    /* Ajusta el tamaño del textarea del resultado */
+    #resultado {
+      width: 80%;
+    }
+  
+    /* Ajusta el tamaño del botón de copiar */
+    .boton-copiar {
+      width: 40%;
+    }
+  
+    /* Ajusta el tamaño del pie de página */
+    #footer {
+      font-size: 15px;
+    }
+  }
+  
+ 
+  @media (max-width: 480px) {
+    /* reglas para pantallas de tamaño celular */
+  
+    /* Ajusta el tamaño del logo */
+    #logo {
+      width: 4%;
+      height: auto;
+    }
+  
+    /* Ajusta el tamaño del textarea */
+    #area-texto {
+      width: 90%;
+    }
+  
+    /* Ajusta el tamaño de los botones */
+    .boton-encriptar, .boton-desencriptar {
+      width: 40%;
+    }
+  
+    /* Ajusta el tamaño de la sección 1 */
+    .seccion1 {
+      width: 90%;
+    }
+  
+    /* Ajusta la disposición de la sección 2 */
+    .seccion2 {
+      width: 90%;
+      margin-right: 0;
+    }
+  
+    /* Ajusta el tamaño de la imagen */
+    #imagen {
+      width: 30%;
+      height: auto;
+    }
+  
+    /* Ajusta el tamaño del título */
+    #texto {
+      font-size: 18px;
+    }
+  
+    /* Ajusta el tamaño de los párrafos */
+    p {
+      font-size: 14px;
+    }
+  
+    /* Ajusta el tamaño del textarea del resultado */
+    #resultado {
+      width: 90%;
+    }
+  
+    /* Ajusta el tamaño del botón de copiar */
+    .boton-copiar {
+      width: 50%;
+    }
+  
+    /* Ajusta el tamaño del pie de página */
+    #footer {
+      font-size: 14px;
+    }
+  }
+  
