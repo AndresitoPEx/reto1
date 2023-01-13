@@ -257,7 +257,7 @@ footer{
 
 
 @media (max-width: 480px) {
-  #logo {
+  #logo { 
     margin-left: 30px;
     margin-top: 50px;
     width: 4%;
@@ -267,24 +267,27 @@ footer{
     position: absolute;
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
+    margin: 0 auto;
+    width: 80%;
   }
   #area-texto {
     color: #0A3871;
-    margin-left: 0;
+    margin: 0 auto;
     width: 100%;
   }
   #aviso {
     width: 100%;
-    margin-left: 50px;
     margin-top: 450px;
+    margin-left: 45px;
   }
   .botones{
     position: absolute;
     display: flex;
     flex-direction: column;
     margin-top: 450px;
+    margin-left: 25px;
     width: 100%;
+
   }
   #boton1 {
     width: 90%;
@@ -303,6 +306,16 @@ footer{
     margin-top: 650px;
     margin-left: 34px;
   }
+  #texto{
+    margin-top: 50px;
+    font-size: 25px;
+    box-sizing: border-box;
+  }
+  #texto2{
+    font-size: 15px;
+    margin-top: 110px;
+    box-sizing: border-box;
+  }
   .imagen{
     display: none;
     box-sizing: border-box;
@@ -310,25 +323,9 @@ footer{
   #copiar{
     margin-left: 30px;
   }
-  /* #texto{
-    margin-top: 10px;
-    font-size: 20px;
-
-  }
-  
-  #resultado{
-    width: 100%;
-    height: auto;
-    margin-top: -30px;
-  }
-  #copiar{
-    width: 90%;
-    height: 50px;
-    margin-top: -25px;
-    margin-left: 20px;
-  }
   footer{
+    position: absolute;
     margin-top: 250px;
-  } */
+  }
 }
 
