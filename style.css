@@ -302,7 +302,7 @@ footer{
     flex-direction: column;
     position: absolute;
     width: 85%;
-    height: 25%;
+    height: 30%;
     margin-top: 650px;
     margin-left: 34px;
   }
@@ -321,7 +321,7 @@ footer{
     box-sizing: border-box;
   }
   #copiar{
-    margin-left: 30px;
+    margin-left: 25px;
   }
   footer{
     position: absolute;
